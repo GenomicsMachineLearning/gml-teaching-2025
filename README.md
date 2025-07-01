@@ -91,7 +91,6 @@ localhost:3502  (prefix w/ https:// if using password)
 
 # Module 003 - Downstream Analysis 
 
-* [CNV Profiling](./003-downstream-analysis/3.1_QIMR_CNV_profiling.ipynb).
 * [Cell community identification](./003-downstream-analysis/3.2_hoodscanR.ipynb).
 * [Neighborhood Coordination and Cell Community Identification](./003-downstream-analysis/3.3_neighborhood.ipynb).
 * [Cell-Cell Interactions CellChat](./003-downstream-analysis/3.4_CCI_CellChat.ipynb).
