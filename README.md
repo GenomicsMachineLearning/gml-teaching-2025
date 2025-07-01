@@ -25,32 +25,32 @@ An overview of the materials to be covered in this course:
 * Module 0 scRNAseq (not about spatial omics)
   * [PBMC 3K scRNAseq data pbmc3k_filtered_gene_bc_matrices.tar.gz](https://s3-us-west-2.amazonaws.com/10x.files/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz) (7.6 MB)
 * Module 1
-  * [Xenium_with_labels.zarr.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
-  * [cosmx.h5ad](https://downloads.gmllab.com/qimr-teaching-2024/cosmx.h5ad) (1.3 GB)
+  * [Xenium_with_labels.zarr.tar.gz](https://downloads.gmllab.com/gml-teaching-2025/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
+  * [cosmx.h5ad](https://downloads.gmllab.com/gml-teaching-2025/cosmx.h5ad) (1.3 GB)
 * Module 2
   * 2.1 - Cell Typing Tutorial
-    * [visium.RDS](https://downloads.gmllab.com/qimr-teaching-2024/visium.RDS) (7.4 MB)
-    * [xenium.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium.RDS) (33 MB)
+    * [visium.RDS](https://downloads.gmllab.com/gml-teaching-2025/visium.RDS) (7.4 MB)
+    * [xenium.RDS](https://downloads.gmllab.com/gml-teaching-2025/xenium.RDS) (33 MB)
   * 2.2 - Cell Typing Example
-    * [scRNA_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/scRNA_processed.RDS) (364 MB)
-    * [visium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/visium_processed.RDS) (36 MB)
-    * [xenium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium_processed.RDS) (98 MB)
+    * [scRNA_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/scRNA_processed.RDS) (364 MB)
+    * [visium_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/visium_processed.RDS) (36 MB)
+    * [xenium_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/xenium_processed.RDS) (98 MB)
 * Module 3
   * 3.1 - CNV Profiling
-    * [infercnv.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/infercnv.tar.gz) (191 MB)
+    * [infercnv.tar.gz](https://downloads.gmllab.com/gml-teaching-2025/infercnv.tar.gz) (191 MB)
   * 3.2 - Community Analysis
-    * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/qimr-teaching-2024/CosMx_Skin_Melanoma.RData) (7.2 MB)
+    * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/gml-teaching-2025/CosMx_Skin_Melanoma.RData) (7.2 MB)
   * 3.3 - Neighborhood Coordination
-    * [spatial.csv](https://downloads.gmllab.com/qimr-teaching-2024/spatial.csv) (2.6 MB)
+    * [spatial.csv](https://downloads.gmllab.com/gml-teaching-2025/spatial.csv) (2.6 MB)
   * 3.4 - Cell-Cell Interaction
-    * [Visium_Skin_A2_cellchat.rds](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Skin_A2_cellchat.rds) (14 MB)
-    * [visium_decon.csv](https://downloads.gmllab.com/qimr-teaching-2024/visium_decon.csv) (375 KB)
-    * [scalefactors_json.json](https://downloads.gmllab.com/qimr-teaching-2024/scalefactors_json.json) (204 Bytes)
+    * [Visium_Skin_A2_cellchat.rds](https://downloads.gmllab.com/gml-teaching-2025/Visium_Skin_A2_cellchat.rds) (14 MB)
+    * [visium_decon.csv](https://downloads.gmllab.com/gml-teaching-2025/visium_decon.csv) (375 KB)
+    * [scalefactors_json.json](https://downloads.gmllab.com/gml-teaching-2025/scalefactors_json.json) (204 Bytes)
 * Module 4
   * 4.2 - Spatial Statistics
-    * [Visium_Mouse_Olfactory_Bulb.rds](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
+    * [Visium_Mouse_Olfactory_Bulb.rds](https://downloads.gmllab.com/gml-teaching-2025/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 5
-  * [CODEX.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/CODEX.tar.gz) (447 MB)
+  * [CODEX.tar.gz](https://downloads.gmllab.com/gml-teaching-2025/CODEX.tar.gz) (447 MB)
 * Module 6
 
 # Running the Learning Materials
