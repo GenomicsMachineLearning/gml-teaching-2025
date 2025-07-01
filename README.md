@@ -47,9 +47,6 @@ An overview of the materials to be covered in this course:
     * [visium_decon.csv](https://downloads.gmllab.com/qimr-teaching-2024/visium_decon.csv) (375 KB)
     * [scalefactors_json.json](https://downloads.gmllab.com/qimr-teaching-2024/scalefactors_json.json) (204 Bytes)
 * Module 4
-  * 4.1 - Tissue Segmentation
-    * [Visium_Mouse_Olfactory_Bulb.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.tar.gz) (31 MB)
-    * [Visium_Skin_A2.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Skin_A2.tar.gz) (Coming Soon) 
   * 4.2 - Spatial Statistics
     * [Visium_Mouse_Olfactory_Bulb.rds](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
 * Module 5
