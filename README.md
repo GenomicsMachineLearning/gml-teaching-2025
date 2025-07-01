@@ -108,7 +108,7 @@ localhost:3502  (prefix w/ https:// if using password)
 
 # Module 006 - Deep Learning 
 
-* [Deep Learning](./006-deep-learning/Deep_learning_tutorial.ipynb).
+* [Deep Learning](004-deep-learning/Deep_learning_tutorial.ipynb).
 
 # Additional Information (Not Required for Course Participants)
 
