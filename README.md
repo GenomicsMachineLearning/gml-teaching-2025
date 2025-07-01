@@ -1,24 +1,21 @@
+
 ![Genomics and Machine Learning Lab, QIMR and UQ Logo](images/logo.png)
 
-# GML Spatial and Machine Learning Teaching Material 2024
+# GML Spatial and Machine Learning Teaching Material 2025
 
 An overview of the materials to be covered in this course:
 * [Module 000 - Single Cell RNAseq Data Analysis](#Module-000---Single-Cell-RNAseq-Data-Analysis)
-  * Single Cell Data Analysis - Quan
+  * Single Cell Data Analysis
 * [Module 001 - Spatial Single Cell Visualisation](#Module-001---Spatial-Single-Cell)
-  * Single Cell Spatial Data Visualisation - Levi
-  * stLearn/Xenium Explorer - Xiao
+  * Single Cell Spatial Data Visualisation
+  * stLearn/Xenium Explorer
 * [Module 002 - Introducing Spatial Analysis](#Module-002---Clustering-and-Cell-Types)
-  * Preprocessing - Andrew C
-  * Clustering and Cell Typing - Andrew C
-  * Deconvolution and Label Transfer - Andrew C
+  * Preprocessing
+  * Clustering and Cell Typing
+  * Deconvolution and Label Transfer
 * [Module 003 - Downstream Analysis](#Module-003---Downstream-Analysis)
-  * Inferring Malignant Cells using CNV Profiles - Prakrithi
-  * Community Analysis - Feng
-  * Cell-Cell Interaction Analysis - Onkar & Levi
-* [Module 004 - Spatial Statistics](#Module-004---Spatial-Statistics)
-  * Tissue Segmentation - Andrew N
-  * Spatial Statistics with Voyager - Andrew N
+  * Community Analysis
+  * Cell-Cell Interaction Analysis
 * [Module 005 - Spatial Proteomics](#Module-005---Spatial-Proteomics)
   * Xiao & Quan
 * [Module 006 - Deep Learning](#Module-006---Deep-Learning)
