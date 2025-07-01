@@ -58,9 +58,9 @@ An overview of the materials to be covered in this course:
 Copy and paste each of the following lines into your terminal once you have logged into the workshop server:
 * ```/software/bin/micromamba shell init```
 * ```source ~/.bashrc```
-* ```micromamba activate /software/conda-envs/winter_school_2024```
-* ```git clone https://github.com/GenomicsMachineLearning/qimr-teaching-2024```
-* ```~/qimr-teaching-2024/runme.sh```
+* ```micromamba activate /software/conda-envs/winter_school_2025```
+* ```git clone https://github.com/GenomicsMachineLearning/gml-teaching-2025```
+* ```~/qimr-teaching-2025/runme.sh```
 
 The output will look something like:
 ```bash
@@ -133,12 +133,12 @@ The steps are:
 
 MacOS:
 ```
-$ conda env create --subdir osx-64 --name qimr-teaching-2024 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --name qimr-teaching-2025 --file=environment-macos.yml -y
 ```
 
 In a custom directory:
 ```
-$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2025 --file=environment-macos.yml -y
 ```
 
 Currently, all dependencies are only available for x86 (Intel). If you are running an M-series CPU 
@@ -148,12 +148,12 @@ Linux:
 
 In your default conda directory:
 ```
-$ conda env create --name qimr-teaching-2024 --file=environment-linux.yml -y
+$ conda env create --name qimr-teaching-2025 --file=environment-linux.yml -y
 ```
 
 In a custom directory:
 ```
-$ conda create --prefix [some-directory]/conda-envs/qimr-teaching-2024 --file=environment-linux.yml
+$ conda create --prefix [some-directory]/conda-envs/qimr-teaching-2025 --file=environment-linux.yml
 ```
 
 ### Recreating the Conda Environment YAML
@@ -189,20 +189,20 @@ replace the calls to "conda" with "micromamba" (if that's what you're using).
 
 MacOS:
 ```
-$ conda create --name qimr-teaching-2024 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
-$ conda activate qimr-teaching-2024
+$ conda create --name qimr-teaching-2025 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
+$ conda activate qimr-teaching-2025
 ```
 
 Linux:
 ```
-$ conda create --name qimr-teaching-2024 python=3.10 r-base=4.3 r-devtools -y
-$ conda activate qimr-teaching-2024
+$ conda create --name qimr-teaching-2025 python=3.10 r-base=4.3 r-devtools -y
+$ conda activate qimr-teaching-2025
 ```
 
 HPC:
 ```
-$ micromamba create -p [some-directory]/conda-envs/qimr-teaching-2024 python=3.10 r-base=4.3 r-devtools -y
-$ micromamba activate [some-directory]/conda-envs/qimr-teaching-2024
+$ micromamba create -p [some-directory]/conda-envs/qimr-teaching-2025 python=3.10 r-base=4.3 r-devtools -y
+$ micromamba activate [some-directory]/conda-envs/qimr-teaching-2025
 ```
 
 ### Installing Managed Dependencies
@@ -241,7 +241,7 @@ gseapy and fastremap.
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
 
 ```
-$ conda create --prefix [some-directory]/qimr-spatial-teaching-2024/conda-envs/qimr-teaching-2024 --clone [some-directory]qimr-spatial-teaching-2024/conda-envs/source-conda-dir
+$ conda create --prefix [some-directory]/gml-teaching-2025/conda-envs/gml-teaching-2024 --clone [some-directory]/gml-teaching-2025/conda-envs/source-conda-dir
 ```
 
 ### Export Environment File
