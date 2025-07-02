@@ -16,9 +16,8 @@ An overview of the materials to be covered in this course:
 * [Module 003 - Downstream Analysis](#Module-003---Downstream-Analysis)
   * Community Analysis
   * Cell-Cell Interaction Analysis
-* [Module 005 - Spatial Proteomics](#Module-005---Spatial-Proteomics)
   * Xiao & Quan
-* [Module 006 - Deep Learning](#Module-006---Deep-Learning)
+* [Module 006 - Deep Learning](#Module-004---Deep-Learning)
   * Xiao & Quan
 
 # Data
@@ -36,22 +35,16 @@ An overview of the materials to be covered in this course:
     * [visium_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/visium_processed.RDS) (36 MB)
     * [xenium_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/xenium_processed.RDS) (98 MB)
 * Module 3
-  * 3.1 - CNV Profiling
-    * [infercnv.tar.gz](https://downloads.gmllab.com/gml-teaching-2025/infercnv.tar.gz) (191 MB)
-  * 3.2 - Community Analysis
+  * 3.1 - Community Analysis
     * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/gml-teaching-2025/CosMx_Skin_Melanoma.RData) (7.2 MB)
-  * 3.3 - Neighborhood Coordination
+  * 3.2 - Neighborhood Coordination
     * [spatial.csv](https://downloads.gmllab.com/gml-teaching-2025/spatial.csv) (2.6 MB)
-  * 3.4 - Cell-Cell Interaction
+  * 3.3 - Cell-Cell Interaction
     * [Visium_Skin_A2_cellchat.rds](https://downloads.gmllab.com/gml-teaching-2025/Visium_Skin_A2_cellchat.rds) (14 MB)
     * [visium_decon.csv](https://downloads.gmllab.com/gml-teaching-2025/visium_decon.csv) (375 KB)
     * [scalefactors_json.json](https://downloads.gmllab.com/gml-teaching-2025/scalefactors_json.json) (204 Bytes)
 * Module 4
-  * 4.2 - Spatial Statistics
-    * [Visium_Mouse_Olfactory_Bulb.rds](https://downloads.gmllab.com/gml-teaching-2025/Visium_Mouse_Olfactory_Bulb.rds) (28 MB)
-* Module 5
-  * [CODEX.tar.gz](https://downloads.gmllab.com/gml-teaching-2025/CODEX.tar.gz) (447 MB)
-* Module 6
+  * 4.1 Deep Learning
 
 # Running the Learning Materials
 
@@ -60,7 +53,7 @@ Copy and paste each of the following lines into your terminal once you have logg
 * ```source ~/.bashrc```
 * ```micromamba activate /software/conda-envs/winter_school_2025```
 * ```git clone https://github.com/GenomicsMachineLearning/gml-teaching-2025```
-* ```~/qimr-teaching-2025/runme.sh```
+* ```~/gml-teaching-2025/runme.sh```
 
 The output will look something like:
 ```bash
@@ -132,12 +125,12 @@ The steps are:
 
 MacOS:
 ```
-$ conda env create --subdir osx-64 --name qimr-teaching-2025 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --name gml-teaching-2025 --file=environment-macos.yml -y
 ```
 
 In a custom directory:
 ```
-$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/qimr-teaching-2025 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/gml-teaching-2025 --file=environment-macos.yml -y
 ```
 
 Currently, all dependencies are only available for x86 (Intel). If you are running an M-series CPU 
@@ -147,12 +140,12 @@ Linux:
 
 In your default conda directory:
 ```
-$ conda env create --name qimr-teaching-2025 --file=environment-linux.yml -y
+$ conda env create --name gml-teaching-2025 --file=environment-linux.yml -y
 ```
 
 In a custom directory:
 ```
-$ conda create --prefix [some-directory]/conda-envs/qimr-teaching-2025 --file=environment-linux.yml
+$ conda create --prefix [some-directory]/conda-envs/gml-teaching-2025 --file=environment-linux.yml
 ```
 
 ### Recreating the Conda Environment YAML
@@ -188,20 +181,20 @@ replace the calls to "conda" with "micromamba" (if that's what you're using).
 
 MacOS:
 ```
-$ conda create --name qimr-teaching-2025 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
-$ conda activate qimr-teaching-2025
+$ conda create --name gml-teaching-2025 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
+$ conda activate gml-teaching-2025
 ```
 
 Linux:
 ```
-$ conda create --name qimr-teaching-2025 python=3.10 r-base=4.3 r-devtools -y
-$ conda activate qimr-teaching-2025
+$ conda create --name gml-teaching-2025 python=3.10 r-base=4.3 r-devtools -y
+$ conda activate gml-teaching-2025
 ```
 
 HPC:
 ```
-$ micromamba create -p [some-directory]/conda-envs/qimr-teaching-2025 python=3.10 r-base=4.3 r-devtools -y
-$ micromamba activate [some-directory]/conda-envs/qimr-teaching-2025
+$ micromamba create -p [some-directory]/conda-envs/gml-teaching-2025 python=3.10 r-base=4.3 r-devtools -y
+$ micromamba activate [some-directory]/conda-envs/gml-teaching-2025
 ```
 
 ### Installing Managed Dependencies
@@ -240,7 +233,7 @@ gseapy and fastremap.
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
 
 ```
-$ conda create --prefix [some-directory]/gml-teaching-2025/conda-envs/gml-teaching-2024 --clone [some-directory]/gml-teaching-2025/conda-envs/source-conda-dir
+$ conda create --prefix [some-directory]/gml-teaching-2025/conda-envs/gml-teaching-2025 --clone [some-directory]/gml-teaching-2025/conda-envs/source-conda-dir
 ```
 
 ### Export Environment File
