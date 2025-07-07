@@ -72,7 +72,7 @@ localhost:3502  (prefix w/ https:// if using password)
 * Copy the text beginning with "http://127.0.0.1" into a new tab in your browser, and hit [Enter].
 
 # Module 000 - Single Cell RNAseq Data Analysis
-* [scRNAseq Data Analysis](./000-single-cell-RNAseq/000_Single_Cell_RNAseq_Analysis_2024.ipynb)
+* [scRNAseq Data Analysis](000-single-cell-RNAseq/000_Single_Cell_RNAseq_Analysis_2025.ipynb)
 
 # Module 001 - Spatial Single Cell 
 
@@ -101,7 +101,7 @@ localhost:3502  (prefix w/ https:// if using password)
 
 # Module 006 - Deep Learning 
 
-* [Deep Learning](004-deep-learning/Deep_learning_tutorial.ipynb).
+* [Deep Learning](004-deep-learning/Deep_learning_01.ipynb).
 
 # Additional Information (Not Required for Course Participants)
 
