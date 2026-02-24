@@ -24,25 +24,25 @@ An overview of the materials to be covered in this course:
 * Module 0 scRNAseq (not about spatial omics)
   * [PBMC 3K scRNAseq data pbmc3k_filtered_gene_bc_matrices.tar.gz](https://s3-us-west-2.amazonaws.com/10x.files/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz) (7.6 MB)
 * Module 1
-  * [Xenium_with_labels.zarr.tar.gz](https://downloads.gmllab.com/gml-teaching-2025/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
-  * [cosmx.h5ad](https://downloads.gmllab.com/gml-teaching-2025/cosmx.h5ad) (1.3 GB)
+  * [Xenium_with_labels.zarr.tar.gz](https://downloads.gmllab.com/qimr-teaching-2024/Xenium_with_labels.zarr.tar.gz) (1.0 GB)
+  * [cosmx.h5ad](https://downloads.gmllab.com/qimr-teaching-2024/cosmx.h5ad) (1.3 GB)
 * Module 2
   * 2.1 - Cell Typing Tutorial
-    * [visium.RDS](https://downloads.gmllab.com/gml-teaching-2025/visium.RDS) (7.4 MB)
-    * [xenium.RDS](https://downloads.gmllab.com/gml-teaching-2025/xenium.RDS) (33 MB)
+    * [visium.RDS](https://downloads.gmllab.com/qimr-teaching-2024/visium.RDS) (7.4 MB)
+    * [xenium.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium.RDS) (33 MB)
   * 2.2 - Cell Typing Example
-    * [scRNA_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/scRNA_processed.RDS) (364 MB)
-    * [visium_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/visium_processed.RDS) (36 MB)
-    * [xenium_processed.RDS](https://downloads.gmllab.com/gml-teaching-2025/xenium_processed.RDS) (98 MB)
+    * [scRNA_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/scRNA_processed.RDS) (364 MB)
+    * [visium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/visium_processed.RDS) (36 MB)
+    * [xenium_processed.RDS](https://downloads.gmllab.com/qimr-teaching-2024/xenium_processed.RDS) (98 MB)
 * Module 3
   * 3.1 - Community Analysis
-    * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/gml-teaching-2025/CosMx_Skin_Melanoma.RData) (7.2 MB)
+    * [CosMx_Skin_Melanoma.RData](https://downloads.gmllab.com/qimr-teaching-2024/CosMx_Skin_Melanoma.RData) (7.2 MB)
   * 3.2 - Neighborhood Coordination
-    * [spatial.csv](https://downloads.gmllab.com/gml-teaching-2025/spatial.csv) (2.6 MB)
+    * [spatial.csv](https://downloads.gmllab.com/qimr-teaching-2024/spatial.csv) (2.6 MB)
   * 3.3 - Cell-Cell Interaction
-    * [Visium_Skin_A2_cellchat.rds](https://downloads.gmllab.com/gml-teaching-2025/Visium_Skin_A2_cellchat.rds) (14 MB)
-    * [visium_decon.csv](https://downloads.gmllab.com/gml-teaching-2025/visium_decon.csv) (375 KB)
-    * [scalefactors_json.json](https://downloads.gmllab.com/gml-teaching-2025/scalefactors_json.json) (204 Bytes)
+    * [Visium_Skin_A2_cellchat.rds](https://downloads.gmllab.com/qimr-teaching-2024/Visium_Skin_A2_cellchat.rds) (14 MB)
+    * [visium_decon.csv](https://downloads.gmllab.com/qimr-teaching-2024/visium_decon.csv) (375 KB)
+    * [scalefactors_json.json](https://downloads.gmllab.com/qimr-teaching-2024/scalefactors_json.json) (204 Bytes)
 * Module 4
   * 4.1 Deep Learning
 
@@ -53,7 +53,7 @@ Copy and paste each of the following lines into your terminal once you have logg
 * ```source ~/.bashrc```
 * ```micromamba activate /software/conda-envs/winter_school_2025```
 * ```git clone https://github.com/GenomicsMachineLearning/gml-teaching-2025```
-* ```~/gml-teaching-2025/runme.sh```
+* ```~/qimr-teaching-2024/runme.sh```
 
 The output will look something like:
 ```bash
@@ -233,7 +233,7 @@ gseapy and fastremap.
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
 
 ```
-$ conda create --prefix [some-directory]/gml-teaching-2025/conda-envs/gml-teaching-2025 --clone [some-directory]/gml-teaching-2025/conda-envs/source-conda-dir
+$ conda create --prefix [some-directory]/qimr-teaching-2024/conda-envs/gml-teaching-2025 --clone [some-directory]/qimr-teaching-2024/conda-envs/source-conda-dir
 ```
 
 ### Export Environment File
